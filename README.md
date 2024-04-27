@@ -7,7 +7,7 @@ Objective: The main objective of multiprogramming is to keep the CPU busy all th
 ## Key Features:
 - Concurrency: Multiple programs are loaded into memory and executed concurrently.
 - Time Sharing: CPU time is shared among multiple programs using scheduling algorithms.
-- Efficiency**: Improves system efficiency by overlapping I/O operations with CPU operations.
+- Efficiency: Improves system efficiency by overlapping I/O operations with CPU operations.
 - Resource Allocation: Efficiently manages system resources such as memory and CPU.
       
 ## Advantages:
