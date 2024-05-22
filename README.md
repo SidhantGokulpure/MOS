@@ -8,7 +8,6 @@ A multiprogramming operating system allows multiple programs to run on a compute
 - Better Resource Utilization: System resources like memory and I/O devices are utilized more efficiently.
       
 ## Phase 1:
-- The guide presents the structure and operations of a Multiprogramming Operating System (MOS) project, particularly its initial version.
 - Assumptions are outlined, including error-free job input, sequential job processing, and a single program loaded into memory at a time.
 - Notation clarifies symbols like memory (M), Instruction Register (IR), and Service Interrupt (SI).
 - In MOS master mode, service requests (SI) are handled, involving reading data (READ), writing output (WRITE), and termination (TERMINATE).
@@ -16,7 +15,6 @@ A multiprogramming operating system allows multiple programs to run on a compute
 - MOS/STARTEXECUTION initializes program execution, while in slave mode, programs are executed according to fetched instructions (IR), with operations like load (LR), store (SR), compare (CR), branch if true (BT), input (GD), output (PD), and halt (H).
 
 ## Phase 2:
-- This guide delineates the operational framework for a multiprogramming operating system (MOS) project, focusing on its second phase.
 - It starts with a set of assumptions regarding program errors, interrupt handling, memory management, and job separation.
 - Interrupt values are defined for system (SI), timer (TI), and program (PI) interrupts, with corresponding error message codes. 
 - The MOS, operating in master mode, delineates actions based on combinations of TI and SI.
